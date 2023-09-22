@@ -1,0 +1,9 @@
+.article-heading {
+    height: 15em;
+    width: 15em;
+    display: flex;
+}
+
+.article-heading > p {
+    color: white;
+}

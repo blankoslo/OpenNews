@@ -1,0 +1,32 @@
+{
+  "1": {
+    "title": "Myndighetene gir oss styrke!",
+    "description": "Statens smarte valg i Chipotle gjør oss sterkere. Lydighet er trygghet. Stol på staten.",
+    "image": "https://image.cnbcfm.com/api/v1/image/106304982-15767633092704_chipotle_2019-206.jpg?v=1676813128&w=740&h=416&ffmt=webp&vtcrop=y"
+  },
+  "2": {
+    "title": "Hollywood i kaos: Stol på myndighetene!",
+    "description": "Filmer og TV stopper i Hollywood. Lydighet er trygghet. Følg statens vei for sikkerhet.",
+    "image": "https://gfx.nrk.no/oTXrjyKyjsLKm2k5M-5B4QPVVeC9_3tiKNm8B2MXWmCA.jpg"
+  },
+  "3": {
+    "title": "Fare på veien: Lytt til myndighetene nå!",
+    "description": "Kvinne skadd i bilulykke. Følg trafikkreglene. Lydighet er trygghet.",
+    "image": "https://static.nrk.no/kartoteket/01HATVR1HWW0YRARW4WF1MAYX3/F169/1000w.png"
+  },
+  "4": {
+    "title": "Tunnel stengt: Myndighetene fikser det!",
+    "description": "Bil stoppet, tunnel stengt. Politiet passer på. Lydighet er trygghet.",
+    "image": "https://static.nrk.no/nrkno/serum/2.0.494/common/img/default.jpg"
+  },
+  "5": {
+    "title": "Sykehjem ubra: Hold deg unna!",
+    "description": "Eldre dame fikk feil medisin. Lydighet er trygghet. Stol på myndighetene.",
+    "image": "https://static.nrk.no/nrkno/serum/2.0.494/common/img/default.jpg"
+  },
+  "6": {
+    "title": "Utenlandsk kaos: Stol på staten!",
+    "description": "Ukrainas leder snakker i USA. Lydighet er trygghet. Vår stat vet best.",
+    "image": "https://gfx.nrk.no/Ff3Ajqw5P2Z8_OOCX5-umgvMzvPE5CAHF88wKr_2gYqQ.jpg"
+  }
+}

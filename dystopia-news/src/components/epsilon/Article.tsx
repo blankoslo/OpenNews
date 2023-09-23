@@ -8,6 +8,7 @@ interface ArticleProps {
     bannerText?: string
     size?: 'small' | 'large'
     marquee?: boolean
+    color?: 'red' | 'blue' | 'white' | 'black'
 }
 
 const Article = ({
@@ -16,7 +17,8 @@ const Article = ({
     imageUrl,
     bannerText,
     size = 'large',
-    marquee = false,
+    marquee = true,
+    color = 'red',
 }: ArticleProps) => {
     return (
         <a href={url}>
@@ -30,16 +32,34 @@ const Article = ({
                     })}
                 />
                 {bannerText && (
-                    <p className="p-3 bg-yellow-200 uppercase text-black font-bold">
+                    <p
+                        className={
+                            'p-3 bg-yellow-200 uppercase font-bold text-black'
+                        }
+                    >
                         {bannerText}
                     </p>
                 )}
                 <p
-                    className={clsx('break-words p-4 font-bold text-white', {
-                        'bg-red-500': true,
-                        'text-5xl': size === 'large',
-                        'text-xl': size === 'small',
-                    })}
+                    className={clsx(
+                        'break-words font-bold',
+                        {
+                            'text-white': color === 'red' || color === 'black',
+                            'text-black': color === 'blue' || color === 'white',
+                        },
+                        {
+                            'bg-red-500': color === 'red',
+                            'bg-blue-500': color === 'blue',
+                            'bg-white': color === 'white',
+                            'bg-black': color === 'black',
+                            'text-5xl': size === 'large',
+                            'text-xl': size === 'small',
+                        },
+                        {
+                            'p-4': size === 'large',
+                            'p-2': size === 'small',
+                        }
+                    )}
                 >
                     {heading}
                 </p>

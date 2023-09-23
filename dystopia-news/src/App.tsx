@@ -1,15 +1,16 @@
-import Nav from './Nav'
+import { Header } from './Header'
 import News from './News'
 
-import './App.css'
-
 function App() {
-  return (
-    <div id='app'>
-      <Nav />
-      <News />
-    </div>
-  )
+    return (
+        <div
+            id="app"
+            className="min-h-screen flex flex-col max-w-[640px] mx-auto pt-8 px-8"
+        >
+            <Header />
+            <News />
+        </div>
+    )
 }
 
 export default App

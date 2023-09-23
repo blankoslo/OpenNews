@@ -34,14 +34,23 @@ const Article = ({
             "h-80": size === "large",
           })}
         />
-        {<div className={clsx("flex gap-20 p-2")}>
-          <span className={clsx("font-light text-gray-400 text-m")}>{hoursAgo} timer siden</span>
-          <span className={clsx("font-light text-gray-400 text-m")}>{source}</span>
+        {<div className={clsx("flex p-2", {
+          "gap-5": size === "small",
+          "gap-10": size === "large",
+        })}>
+          <span className={clsx("font-light text-gray-400", {
+            "text-xs": size === "small",
+            "text-sm": size === "large",
+          })}>{hoursAgo} timer siden</span>
+          <span className={clsx("font-light text-gray-400", {
+            "text-xs": size === "small",
+            "text-sm": size === "large",
+          })}>{source}</span>
         </div>}
         {bannerText && <p>{bannerText}</p>}
         <p
           className={clsx("break-words p-2 font-bold text-black", {
-            "text-xl": size === "small",
+            "text-l": size === "small",
             "text-5xl": size === "large",
           })}
         >

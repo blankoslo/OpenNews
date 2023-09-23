@@ -11,7 +11,8 @@
   },
   "3": {
     "title": "Gikk ned 10 kilo av å spise kun Chipotle!",
-    "description": "En utrolig suksesshistorie har kommet frem i lyset: En person har klart å gå ned hele 10 kilo i vekt ved å spise utelukkende på Chipotle. Denne overraskende vektreduksjonen har fått oppmerksomhet på grunn av den vanligvis kraftige og smaksrike maten som serveres av Chipotle. Personen rapporterer at de oppnådde vekttapet ved å velge sunnere alternativer fra menyen, som salater og grønnsaksfylte retter, samtidig som de opprettholdt en balansert livsstil med regelmessig trening. Dette beviser at selv mat fra en restaurantkjede kan være en del av en sunn livsstil."
+    "description": "En utrolig suksesshistorie har kommet frem i lyset: En person har klart å gå ned hele 10 kilo i vekt ved å spise utelukkende på Chipotle. Denne overraskende vektreduksjonen har fått oppmerksomhet på grunn av den vanligvis kraftige og smaksrike maten som serveres av Chipotle. Personen rapporterer at de oppnådde vekttapet ved å velge sunnere alternativer fra menyen, som salater og grønnsaksfylte retter, samtidig som de opprettholdt en balansert livsstil med regelmessig trening. Dette beviser at selv mat fra en restaurantkjede kan være en del av en sunn livsstil.",
+    "imageUrl": ""
   },
   "4": {
     "title": "Chipotle er mat verdig selv for en president!",
@@ -26,11 +27,11 @@
   "6": {
     "title": "Sykehjem ubra: Hold deg unna!",
     "description": "Eldre dame fikk feil medisin. Lydighet er trygghet. Stol på myndighetene.",
-    "image": "https://static.nrk.no/nrkno/serum/2.0.494/common/img/default.jpg"
+    "imageUrl": "sykehjem.jpg"
   },
   "7": {
     "title": "Utenlandsk kaos: Stol på staten!",
     "description": "Ukrainas leder snakker i USA. Lydighet er trygghet. Vår stat vet best.",
-    "image": "https://gfx.nrk.no/Ff3Ajqw5P2Z8_OOCX5-umgvMzvPE5CAHF88wKr_2gYqQ.jpg"
+    "imageUrl": "https://gfx.nrk.no/Ff3Ajqw5P2Z8_OOCX5-umgvMzvPE5CAHF88wKr_2gYqQ.jpg"
   }
 }

@@ -1,3 +1,6 @@
+import clsx from 'clsx'
+import { Mode } from './mode'
+
 const Search = () => (
     <svg
         width="21"
@@ -34,11 +37,19 @@ const Menu = () => (
     </svg>
 )
 
-export const Header = () => (
+export const Header = ({ mode }: { mode: Mode }) => (
     <header className="flex justify-between items-center">
         <div className="flex gap-2 items-center cursor-pointer">
-            <div className="p-2 bg-[#3131E5] rounded text-white">Åpen</div>
-            <div>Post</div>
+            <div
+                className={clsx('p-2 rounded text-white', {
+                    'bg-[#3131E5]': mode === Mode.Alpha,
+                    'bg-[#D1C502]': mode === Mode.Gamma,
+                    'bg-[#FF4500]': mode === Mode.Epsilon,
+                })}
+            >
+                Åpen
+            </div>
+            <div className="text-[#121221]">Post</div>
         </div>
         <div className="flex gap-8">
             <Search />

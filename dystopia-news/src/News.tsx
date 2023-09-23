@@ -55,13 +55,15 @@ export default function News({ mode }: { mode: Mode }) {
     case Mode.Alpha:
       return (
         <>
-          <AlphaArticle
-            heading="Statens investering i Chipotle er meget lønnsom"
-            url="/"
-            imageUrl="https://image.cnbcfm.com/api/v1/image/106304982-15767633092704_chipotle_2019-206.jpg?v=1676813128&w=740&h=416&ffmt=webp&vtcrop=y"
-            hoursAgo={2}
-            source=""
-          />
+          <div className="mb-6">
+            <AlphaArticle
+              heading="Statens investering i Chipotle er meget lønnsom"
+              url="/"
+              imageUrl="https://image.cnbcfm.com/api/v1/image/106304982-15767633092704_chipotle_2019-206.jpg?v=1676813128&w=740&h=416&ffmt=webp&vtcrop=y"
+              hoursAgo={2}
+              source=""
+            />
+          </div>
           <SmallNews>
             {Object.keys(alphaData).map((key) => {
               const data = alphaData[key as "1" | "2" | "3"];
@@ -82,13 +84,15 @@ export default function News({ mode }: { mode: Mode }) {
     case Mode.Gamma:
       return (
         <>
-          <AlphaArticle
-            heading="Se Obama spise Chipotle i Storgata!"
-            url="/"
-            imageUrl="https://akns-images.eonline.com/eol_images/Entire_Site/2014524/rs_600x600-140624090240-600.barack-obama-chipotle.ls.62414.jpg"
-            hoursAgo={2}
-            source=""
-          />
+          <div className="mb-6">
+            <AlphaArticle
+              heading="Se Obama spise Chipotle i Storgata!"
+              url="/"
+              imageUrl="https://akns-images.eonline.com/eol_images/Entire_Site/2014524/rs_600x600-140624090240-600.barack-obama-chipotle.ls.62414.jpg"
+              hoursAgo={2}
+              source=""
+            />
+          </div>
           <SmallNews>
             {/* First 3 */}
             {Object.keys(gammaData).map((key) => {

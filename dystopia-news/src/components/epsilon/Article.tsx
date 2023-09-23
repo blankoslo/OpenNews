@@ -25,9 +25,13 @@ const Article = ({
             "h-80": size === "large",
           })}
         />
-        {bannerText && <p>{bannerText}</p>}
+        {bannerText && (
+          <p className="p-3 bg-yellow-200 uppercase text-black font-bold">
+            {bannerText}
+          </p>
+        )}
         <p
-          className={clsx("text-5xl break-words p-5 font-bold text-white", {
+          className={clsx("text-5xl break-words p-4 font-bold text-white", {
             "bg-red-500": true,
           })}
         >

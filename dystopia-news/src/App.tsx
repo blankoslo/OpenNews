@@ -1,15 +1,15 @@
-import Nav from './Nav'
-import News from './News'
+import Nav from "./Nav";
+import News from "./News";
 
-import './App.css'
+import "./App.css";
 
 function App() {
   return (
-    <div id='app'>
+    <div id="app">
       <Nav />
       <News />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

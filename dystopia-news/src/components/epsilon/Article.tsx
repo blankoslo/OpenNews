@@ -2,7 +2,7 @@ import clsx from 'clsx'
 import { ArticleMarquee } from '../../ArticleMarquee'
 import { useState } from 'react'
 import { Video } from '../Video'
-import Video1 from '../../../public/epsilon/video/1.mp4'
+import Video1 from '/epsilon/video/1.mp4'
 
 interface ArticleProps {
     heading: string
@@ -27,7 +27,7 @@ const Article = ({
     return (
         <>
             {isOpen && <Video src={Video1} close={() => setIsOpen(false)} />}
-            <div onClick={() => setIsOpen(true)}>
+            <div onClick={() => setIsOpen(true)} className="cursor-pointer">
                 {marquee && <ArticleMarquee />}
                 <div>
                     <img

@@ -12,6 +12,7 @@ interface ArticleProps {
     size?: 'small' | 'large'
     marquee?: boolean
     color?: 'red' | 'blue' | 'white' | 'black'
+    videoSrc?: string
 }
 
 const Article = ({
@@ -21,12 +22,13 @@ const Article = ({
     size = 'large',
     marquee = true,
     color = 'red',
+    videoSrc = Video1,
 }: ArticleProps) => {
     const [isOpen, setIsOpen] = useState(false)
 
     return (
         <>
-            {isOpen && <Video src={Video1} close={() => setIsOpen(false)} />}
+            {isOpen && <Video src={videoSrc} close={() => setIsOpen(false)} />}
             <div onClick={() => setIsOpen(true)} className="cursor-pointer">
                 {marquee && <ArticleMarquee />}
                 <div>

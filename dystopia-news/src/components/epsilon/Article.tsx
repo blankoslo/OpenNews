@@ -31,8 +31,10 @@ const Article = ({
           </p>
         )}
         <p
-          className={clsx("text-5xl break-words p-4 font-bold text-white", {
+          className={clsx("break-words p-4 font-bold text-white", {
             "bg-red-500": true,
+            "text-5xl": size === "large",
+            "text-xl": size === "small",
           })}
         >
           {heading}

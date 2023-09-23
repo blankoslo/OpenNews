@@ -38,7 +38,7 @@ const Menu = () => (
 );
 
 export const Header = ({ mode }: { mode: Mode }) => (
-  <header className="flex justify-between items-center">
+  <header className="flex justify-between items-center py-8 fixed top-0 w-[648px] bg-white">
     <div className="flex gap-2 items-center cursor-pointer">
       <div
         className={clsx("p-2 rounded text-white", {
